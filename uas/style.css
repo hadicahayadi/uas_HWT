@@ -1,0 +1,120 @@
+/* Site Colors:
+	#1A446C - blue grey
+	#689DC1 - light blue
+	#D4E6F4 - very light blue
+	#EEE4B9	- light tan
+	#8D0D19	- burgundy
+*/
+
+body{
+	width: 100%;height: 100%;
+	margin: 0; padding: 0; border:0;
+	font-family:Verdana, Arial , Helvetica, sans-serif;
+	font-size: 13px; line-height:15px;
+	background:#DBDBDB;
+}
+table{
+background-color:#EEA2AD;
+}
+
+#bungkus{
+width:1000px;
+background:;
+margin: 0 auto;
+background-color:#330000;
+}
+
+
+#banner{
+}
+#banner img{
+width:100%	;
+height:250px;
+}
+
+#menu{
+margin-top:10px ;
+margin-bottom:3px ;
+}
+
+#menu ul{
+margin-top:2px;
+width:100%;
+padding:0;
+margin-left:200px;
+}
+
+#menu ul li{
+list-style: none;
+display: inline-block;
+
+}
+
+#menu ul li a{
+text-decoration:none;
+color:#333333;
+background-color:#EBECE4;
+border-radius:3px; /*  utk bkin sprti bayangan */
+margin-right:100px;
+font-size:15px;
+font-family:Helvetica;
+padding:2px 10px ;
+}
+
+#menu ul li a:hover{
+background-color: #ff99ff;
+
+}
+
+
+#isi{
+	height:750px;width:100%;
+	margin:0; padding:0 ;
+	background:#F5F5F5;
+}
+#kiri{
+	float: left;
+	width: 200px; height:100%;
+	margin: 0; padding: 1 em ;	
+	color: #D4E6F4; 
+	background:#4A4A4A;
+}
+
+#kiri ul{
+margin-top:10px;
+color:blue;
+padding:0;
+margin-left:50px;
+list-style:none;
+}
+
+#kiri ul li{
+margin-top:10px;
+
+}
+
+#kiri ul li a{
+background-color:gray;
+text-decoration:none;
+border-radius:5px; /*  utk bkin sprti bayangan */
+font-size:15px;
+font-family:Helvetica;
+font-weight: bold;
+
+}
+/*hover untuk bila cursor mengarah kesana dapat berubah sesuai keinginan*/
+#kiri ul li a:hover{
+background-color: #ff99ff;
+
+}
+
+#kanan{
+	width:750px;
+	float: left; height: 100%;
+	padding-left: 2em; vertical-align: top;
+}
+
+#footer{
+color:blue;
+float:right;
+}
